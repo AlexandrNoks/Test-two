@@ -21,4 +21,5 @@ from . import my_syth
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.vise_versa),
+    path('reverse/', views.reverse, name='reverse'),
 ]
